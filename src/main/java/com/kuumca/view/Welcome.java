@@ -29,7 +29,10 @@ public class Welcome {
         switch (choice){
             case 1 -> login();
             case 2 -> signup();
-            case 0 -> System.exit(0);
+            case 0 -> {
+                System.out.println("*************** Secure Your Data & Secure Your Life ***************");
+                System.exit(0);
+            }
         }
     }
 
